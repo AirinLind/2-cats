@@ -1,0 +1,137 @@
+/* body {
+    margin: 0;
+    font-family: sans-serif;
+}
+h2 {
+    margin: 0;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+.card {
+    height: 120px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+} */
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://static.tildacdn.com/tild6361-3064-4861-a461-333336633339/noroot.png);
+}
+
+h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin: 5px;
+    border: 2px darksalmon solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:white;
+}
+
+h3{
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    border: 2px darksalmon solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:white;
+}
+
+p{
+    text-align: center;
+    margin: 5px;
+    border: 2px darksalmon solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 50px;
+}
+
+.cat_img {
+    width: 150px;
+    border-radius: 10px;
+    border: 2px darksalmon solid;
+    transition: 1s;
+}
+
+.cat_img:hover {
+    width: 200px;
+    border-radius: 10px;
+    border: 2px darksalmon solid;
+}
+
+.description {
+    display: flex;
+    width: 240px;
+    height: auto;
+    border: 2px darksalmon solid;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color:white;
+}
+
+.card {
+    padding: 5px;
+    border: 2px darksalmon solid;
+    border-radius: 10px;
+    background-color:floralwhite;
+    box-sizing: border-box;
+}
+.card:hover {
+    padding: 5px;
+    border: 2px darksalmon solid;
+    border-radius: 10px;
+    background-color:floralwhite;
+    box-sizing: border-box;
+}
+
+
+
+.id {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px darksalmon solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.rate{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px darksalmon solid;
+    padding: 5px;
+    border-radius: 10px;
+}
